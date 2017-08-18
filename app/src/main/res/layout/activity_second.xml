@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_weight="2"
+        android:background="#c8812e2e" />
+    <Button
+        android:onClick="toText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Text"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#a4f3b0" />
+    <Button
+        android:onClick="toMail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Mail"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#e6ef6d" />
+    <Button
+        android:onClick="toCall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Call"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#a4aaee" />
+    <Button
+        android:onClick="toWeb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Web"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:background="#ccc2c2" />
+
+</LinearLayout>
